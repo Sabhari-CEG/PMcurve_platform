@@ -1,0 +1,9 @@
+.content{
+    margin: 3%;
+    margin-top: 8vh;
+}
+
+.content p{
+    font-size: 1.3rem;
+    font-family: 'Open Sans';
+}

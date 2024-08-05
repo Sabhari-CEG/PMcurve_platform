@@ -1,0 +1,33 @@
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 1px solid #888888;
+    z-index: 999;
+    background-color: white;
+}
+
+.logo{
+    margin-left: 3vw;
+    padding-bottom: 1vh;
+}
+
+.options{
+    margin-right: 8vw;
+}
+
+.down-arrow{
+    font-size: x-large;
+    padding: 2px;
+}
+
+.content-btn{
+    width: 100%;
+    margin: 2.5%;
+}
+
+@media (max-width: 768px) {
+    .down-arrow{
+        font-size: xx-large;
+    }
+
+}

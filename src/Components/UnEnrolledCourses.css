@@ -1,0 +1,36 @@
+.course-heading{
+    font-family: 'Open Sans';
+    color: #262626;
+    font-size: 18px;
+    font-weight: bold;
+    margin: -2px;
+}
+
+.course-price{
+    font-family: 'Open Sans';
+    color: #262626;
+    font-size: 16px;
+    margin: -2px;
+}
+
+.course-description{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #61616B;
+    margin: -2px;
+}
+
+.course-card{
+    border: 1px solid #C4C4C4 !important;
+}
+
+.course-button{
+    margin-top: 15px;
+    color: #004747;
+    border: 1px solid #004747;
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: larger;
+}

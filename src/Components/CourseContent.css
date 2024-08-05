@@ -1,0 +1,54 @@
+.course-content {
+    margin-top: 8vh;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    display: none;
+}
+
+.content-section h1 {
+    font-size: 32px;
+}
+
+/* Styles for p tags */
+.content-section p {
+    font-size: 22px;
+    font-family: 'Open Sans';
+    /* No flex display here to keep paragraph text normally aligned */
+}
+
+/* Styles for images within p tags */
+.content-section p img {
+    display: block; /* Makes the image a block-level element */
+    margin: 0 auto; /* Centers the block-level element horizontally */
+    max-width: 100%; /* Ensure the image does not overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+.content-section.visible {
+    display: block;
+}
+
+.content-section button {
+    margin-top: 10px;
+}
+
+.continue-btn{
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    background-color: #004747;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}

@@ -1,0 +1,11 @@
+.outer-component {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #FED9D9;
+}
+
+.verdict{
+    font-size: 18px;
+    color: #262626;
+}

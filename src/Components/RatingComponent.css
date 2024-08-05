@@ -1,0 +1,18 @@
+.rating-outer{
+    background-color: #FCFCFC;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    padding: 3%;
+}
+
+.rating-outer h4{
+    font-size: 20px;
+}
+
+.comment-outer{
+    background-color: #FCFCFC;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    margin-top: 3%;
+    padding: 1%;
+}

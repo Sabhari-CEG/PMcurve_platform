@@ -1,0 +1,57 @@
+.outer-card-enrolled{
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 3vh;
+}
+
+.thumb-image{
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 12.5px;
+}
+
+@media (max-width: 768px) {
+    .thumb-image{
+        max-height: 110px;
+        max-width: 110px;
+        border-radius: 12.5px;
+    }
+
+}
+
+.entrolled-card-content{
+    padding: 5%;
+}
+
+.entrolled-card-content p{
+    margin-bottom: -3px;
+}
+
+.course-heading-enrolled{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.course-description-enrolled{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #61616B;
+}
+
+.enrolled-continue{
+    padding-left: 5%;
+    color: #262626;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.enrolled-continue:hover{
+    color: #262626;
+}
+
+.enrolled-progress{
+    padding-top: 5%;
+
+}

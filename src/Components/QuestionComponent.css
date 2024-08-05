@@ -1,0 +1,62 @@
+ .question-component {
+    margin-bottom: 20px;
+    padding: 20px;
+    /* border: 1px solid #004747; */
+    border-radius: 8px;
+    background-color: #DCEFE8;
+}
+
+.question-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #262626;
+    font-family: 'Open Sans', sans-serif; /* Ensure the font is correctly applied */
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+    color: #61616B !important;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; /* Ensure the font is correctly applied */
+}
+
+.exercise-topic {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif; /* Ensure the font is correctly applied */
+    color: #61616B;
+}
+
+.options li {
+    margin-bottom: 10px;
+}
+
+.option-label {
+    display: inline-flex; /* Ensure the label is inline with the input */
+    align-items: center;
+}
+
+.options input[type="radio"],
+.options input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.submit-button {
+    color: #61616B;
+    border: 2px solid #61616B !important;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; /* Ensure the font is correctly applied */
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.option-entry{
+margin-bottom: 50%;
+}
